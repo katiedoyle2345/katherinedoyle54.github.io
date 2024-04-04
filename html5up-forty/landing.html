@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Data Analytics Portfolio of Katherine Doyle</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="moreaboutme.html">About Me</a></li>
+							<li><a href="phonesalesdata.html">Project Portfolio</a></li>
+						</ul>
+						
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1></h1>
+							</header>
+							<div class="content">
+								<p></p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="project-aim">
+								<div class="inner">
+									<header>
+										<h2>Aim of the Project:</h2>
+									</header>
+									<p>The project aims to develop a machine learning model capable of accurately classifying SMS messages as spam or ham (not spam). By leveraging Natural Language Processing (NLP) techniques, the model will process and analyze text data to identify patterns indicative of unsolicited messages. The objective is to enhance the filtering of spam messages, thereby improving user experience and security.</p>
+								</div>
+							</section>
+						<!-- Explanation and Rationale -->
+							<section id="project-explanation">
+								<div class="inner">
+									<header>
+										<h2>Explanation and Rationale:</h2>
+									</header>
+									<p>The project follows a standard NLP pipeline, which includes data loading, text preprocessing, feature extraction, and model training. This structured approach ensures that the data is adequately prepared for analysis, enhancing the model's ability to discern and classify messages effectively. It highlights the importance of each step in achieving the project's aim and demonstrates a thorough understanding of the NLP domain.</p>
+									<br>This includes:<br>
+										- Removing punctuation and numbers to reduce noise in the data.<br>
+										- Converting all text to lowercase to maintain uniformity.<br>
+										- Tokenising the text into individual words to prepare for further cleaning.<br>
+										- Removing common stopwords (e.g., "and", "the", "is") which do not contribute to distinguishing spam messages.<br>
+										- Applying stemming to words to reduce them to their root form, thus consolidating similar forms of a word.</p>
+									
+									<!-- Feature Extraction Description -->
+									<p>3.Feature Extraction: We convert the preprocessed text into numerical values using the TF-IDF (Term Frequency-Inverse Document Frequency) technique. TF-IDF evaluates how important a word is to a document within a large collection of documents (corpus). It gives more weight to terms that are frequent in a document but not across documents. This step transforms text data into a format that machine learning algorithms can work with.</p>
+									
+									<!-- Model Training Description -->
+									<p>4.Model Training: With the features ready, we train a Naive Bayes classifier, a popular algorithm for text classification due to its simplicity and effectiveness. It uses probabilities to make predictions, which is particularly suitable for spam detection as it can manage the independence between the words after the TF-IDF transformation.</p>
+									
+									<!-- Model Evaluation Description -->
+									<p>5.Model Evaluation: After training, we evaluate the model's performance on a separate test set to determine its accuracy and the precision and recall of its predictions. This step is critical to assess the model’s practicality in effectively filtering spam messages without misclassifying legitimate messages (ham).</p>
+									
+									<!-- Application and Impact Description -->
+									<p>6.Application: The final product is a spam detection model that can be integrated into messaging platforms to automatically filter out spam, thus protecting users from unwanted messages and potential phishing attempts.</p>
+									<p>By addressing a common and impactful problem, this project not only demonstrates the application of NLP in a practical scenario but also showcases the ability to harness machine learning for improving digital communication security. </p>
+									
+									<!-- Link to the Python File -->
+									<p>Here is the link to the <strong><a href="Spam_SMS.html" target="_blank">"Python File"</a></strong></p>
+								</div>
+						</section>
+						
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic08.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Orci maecenas</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+
+									<!-- Main -->
+										<div id="main">
+											<!-- Project Overview Section -->
+											<section id="project-overview">
+												<div class="inner">
+													<header class="major">
+														<h2>SMS Spam Detection Using NLP</h2>
+													</header>
+													<!-- Data Loading Description -->
+													<p>1.Data Loading: The first step involves loading the <strong><a href="spam_sms.csv" target="_blank">"SMS_Spam.csv"</a></strong> dataset using pandas, a Python library for data manipulation and analysis. This step is crucial to get a preliminary look at the data and understand the structure and content of the SMS messages.</p>
+													
+													<!-- Text Preprocessing Description -->
+													<p>2.Text Preprocessing: Since machine learning models do not understand raw text, we perform preprocessing to convert text into a
+
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Rhoncus magna</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sed nunc ligula</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Massa libero</h2>
+									</header>
+									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button next">Get Started</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
